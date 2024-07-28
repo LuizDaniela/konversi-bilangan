@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Bilangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi Bilangan</h1>
+        <input type="number" id="numberInput" placeholder="Masukkan bilangan">
+        <select id="baseInput">
+            <option value="10">Desimal</option>
+            <option value="2">Biner</option>
+            <option value="8">Oktal</option>
+            <option value="16">Heksadesimal</option>
+        </select>
+        <button onclick="convert()">Konversi</button>
+        <div class="result">
+            <p>Desimal: <span id="decimalResult"></span></p>
+            <p>Biner: <span id="binaryResult"></span></p>
+            <p>Oktal: <span id="octalResult"></span></p>
+            <p>Heksadesimal: <span id="hexResult"></span></p>
+        </div>
+    </div>
+    <div class="watermark">
+        &copy; LuizDniela
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
